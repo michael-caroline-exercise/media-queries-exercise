@@ -1,3 +1,19 @@
+@media screen and (min-width: 576px) {
+    .alert-info {
+        display: flex;
+        justify-content: center;
+    }
+    .alert-info>a {
+         text-decoration: none;
+         background-color: lightskyblue;
+         padding: 1em;
+         color: #000;
+         border: darkgray solid 2px;
+     }
+
+
+}
+
 * {
     box-sizing: border-box;
 }
@@ -5,17 +21,8 @@
 body {
     margin: 0;
     padding: 1em;
+    font-family: Arial, sans-serif;
 }
 
-.alert-info {
-    display: flex;
-    justify-content: center;
-}
 
-.alert-info>a {
-    text-decoration: none;
-    background-color: lightskyblue;
-    padding: 1em;
-    color: #000;
-    border: darkgray solid 2px;
-}
+
