@@ -1,16 +1,15 @@
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     .alert-info {
         display: flex;
         justify-content: center;
+        background-color: lightskyblue;
+        padding: 1em;
+        border: darkgray solid 2px;
     }
 
     .alert-info>a {
          text-decoration: none;
-         background-color: lightskyblue;
-         padding: 1em;
          color: #000;
-         border: darkgray solid 2px;
-
     }
 
     h1 {
@@ -43,11 +42,36 @@
         justify-content: center;
         background-color: lightgray;
         padding: 1em;
+        margin: 0.5em 0;
 
     }
 
+    .header-img {
+        display: flex;
+        /*width: 100%;*/
+        justify-content: center;
+        margin: auto;
+
+    }
+
+    .sub-section {
+        font-style: italic;
+    }
 }
 
+#social-media-links {
+    display: flex;
+
+}
+
+#social-media-links>i {
+    padding: 1em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
 * {
     box-sizing: border-box;
 }
